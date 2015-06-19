@@ -1,1 +1,3 @@
-#Human Activity Recognition Using Smartphones Data Set
+#COursera - Getting and Cleaing Data - Course Project
+
+
