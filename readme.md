@@ -1,11 +1,12 @@
 #Coursera - Getting and Cleaning Data - Course Project
 
 This repository is for the **Course Project** of the Coursera
-**Getting and Cleaning Data** course (https://www.coursera.org/course/getdata).
+**[Getting and Cleaning Data](https://www.coursera.org/course/getdata)** course.
 
 The purpose of the project was for individuals to demonstrate their ability to collect, work with, and clean data. 
 
-The **Human Activity Recognition Using Smartphones Data Set** was provided from the **Machine Learning Repository** of UCI (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), and the following instructions were A dataset was provided, with the following instructions:
+The **Human Activity Recognition Using Smartphones Data Set** was provided from the **[Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)** of UCI, and the following instructions were A dataset was provided, with the following instructions:
+
 1. Create a tidy dataset
     1. Create a script called run_analysis.R that:
         1. Merges the training and the test sets into one dataset.
