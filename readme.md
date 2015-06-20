@@ -16,15 +16,15 @@ The **<a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition
         5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
     2. Upload the [run_analysis.R](run_analysis.R) to a Github repository
 2. Create a code book that describes the variables, the data, and any transformations or manipulations performed to tidy and summarize the data.
-    1. Call the code book file [CodeBook.md](codebook.md), and upload to the same Github repository as the run_analysis.R script.
-3. Create a repository [README.md](readme.md) in the repository that explains the repository.
+    1. Call the code book file [codebook.md](codebook.md), and upload to the same Github repository as the run_analysis.R script.
+3. Create a repository [readme.md](readme.md) in the repository that explains the repository.
 
 ## Repository contents and structure
 The repository is structured as follows:
 
-* **[/Data](Data)** - Contains the HAR dataset
-** **[/Data/UCI HAR Dataset](/Data/UCI HAR Dataset)** - Contains the extracted HAR dataset
-** **[UCI_HAR_Dataset.zip](UCI_HAR_Dataset.zip)** - is the zip archive of the HAR dataset
+* **[/Data](Data)** - Contains the HAR dataset 
+* **[/Data/UCI HAR Dataset](/Data/UCI HAR Dataset)** - Contains the extracted HAR dataset 
+* **[UCI_HAR_Dataset.zip](UCI_HAR_Dataset.zip)** - is the zip archive of the HAR dataset 
 * **[Human Activity Recognition Using Smartphones Data Set.Rproj](Human Activity Recognition Using Smartphones Data Set.Rproj)** - is the RStudio project file
 * **[codebook.md](codebook.md)** - is the code book describing the dataset
 * **[readme.md](readme.md)** - well you know what that is .....
