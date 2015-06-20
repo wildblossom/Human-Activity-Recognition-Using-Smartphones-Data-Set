@@ -23,8 +23,8 @@ The **<a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition
 The repository is structured as follows:
 
 * **[/Data](Data)** - Contains the HAR dataset 
-* **[/Data/UCI HAR Dataset](/Data/UCI HAR Dataset)** - Contains the extracted HAR dataset 
-* **[UCI_HAR_Dataset.zip](UCI_HAR_Dataset.zip)** - is the zip archive of the HAR dataset 
+* **[/Data/UCI HAR Dataset](Data/UCI HAR Dataset)** - Contains the extracted HAR dataset 
+* **[/Data/UCI_HAR_Dataset.zip](Data/UCI_HAR_Dataset.zip)** - is the zip archive of the HAR dataset 
 * **[Human Activity Recognition Using Smartphones Data Set.Rproj](Human Activity Recognition Using Smartphones Data Set.Rproj)** - is the RStudio project file
 * **[codebook.md](codebook.md)** - is the code book describing the dataset
 * **[readme.md](readme.md)** - well you know what that is .....
