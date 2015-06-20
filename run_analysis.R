@@ -1,4 +1,4 @@
-# the run_analysis.R script is in partial fulfillment of the Course Project 
+# The run_analysis.R script is in partial fulfillment of the Course Project 
 # for the Coursera "Getting and Cleaning Data" course.
 #
 # The script downloads the Human Activity Recognition dataset, tidies 
