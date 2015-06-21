@@ -31,28 +31,7 @@ The repository is structured as follows:
 * **[run_analysis.R](run_analysis.R)** - is the R script that downloads, shapes, tidies, and summarizes the Har dataset
 
 ## Process of tidying and summarizing the HAR dataset
-The [run_analysis.R](run_analysis.R) script downloads the HAR dataset, tidies it, performs various required data manipulations, and summaries it. The script flow is as follows:
-
-1. Load required libraries (i.e. dplyr)
-2. Create the project data directory
-3. Download the HAR dataset to the project data directory
-4. Extract Human Activity Recognition dataset in the project data directory
-5. Load the features from the HAR dataset
-    1. Identify the mean() and std() features
-    2. Create syntactically valid variable names from the feature names. These are used as column names for the training and test datasets.
-6. Load the activities from the HAR dataset
-7. Load the HAR training dataset
-    1. Add the training data column names from the syntactically valid feature names created in step 5.2
-    2. Add the subject identifiers, and activity identifiers to the training dataset
-8. Load the HAR test dataset
-    1. Add the test data column names from the syntactically valid feature names created in step 5.2
-    2. Add the subject identifiers, and activity identifiers to the test dataset
-9. Merge the training and test datasets
-    1. Add descriptive activity names from the activities loaded in step 6
-    2. Select the mean and std deviation features from the mean and std features identified in step 5.1
-    3. Group the merged data by subject and activity
-10. Create a tidy summary of feature means grouped by subject and activity
-11. Write the tidy summary to file
+The [run_analysis.R](run_analysis.R) script downloads the HAR dataset, tidies it, performs various required data manipulations, and summaries it. The script flow is described in the [Code Book](codebook.md)
 
 ## Code Book
-The [codebook.md](codebook.md) describes the parts of the HAR dataset that are manipulated and summarized.
+The [Code Book](codebook.md) describes the parts of the HAR dataset that are manipulated and summarized.
