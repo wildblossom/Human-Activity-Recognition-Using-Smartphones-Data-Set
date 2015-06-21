@@ -3,7 +3,8 @@
 * Based on UCI **Machine Learning Repository** **<a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones" target="_blank">Human Activity Recognition Using Smartphones Data Set (HRA)</a>**
 
 ## Human Activity Recognition Using Smartphones Dataset description
-The UCI HAR dataset can be found in [Data/UCI HAR Dataset](Data/UCI HAR Dataset). See **[UCI HAR Dataset/README.txt](Data/UCI HAR Dataset/README.txt)** for a description of the UCI HAR dataset.
+The UCI HAR dataset can be found in [Data/UCI HAR Dataset](Data/UCI HAR Dataset). 
+See **[UCI HAR Dataset/README.txt](Data/UCI HAR Dataset/README.txt)** for a description of the UCI HAR dataset.
 
 ## Data files used
 The following UCI HAR data files were used in fulfilling the requirements of the course project:
