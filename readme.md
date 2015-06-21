@@ -22,16 +22,20 @@ The **<a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition
 ## Repository contents and structure
 The repository is structured as follows:
 
-* **[/Data](Data)** - Contains the HAR dataset 
-* **[/Data/UCI HAR Dataset](Data/UCI HAR Dataset)** - Contains the extracted HAR dataset 
-* **[/Data/UCI_HAR_Dataset.zip](Data/UCI_HAR_Dataset.zip)** - is the zip archive of the HAR dataset 
-* **[Human Activity Recognition Using Smartphones Data Set.Rproj](Human Activity Recognition Using Smartphones Data Set.Rproj)** - is the RStudio project file
+* **[Data](Data)** - Contains the HAR dataset 
+* **[Data/UCI HAR Dataset](Data/UCI HAR Dataset)** - Contains the extracted HAR dataset 
+* **[Data/UCI_HAR_Dataset.zip](Data/UCI_HAR_Dataset.zip)** - is the zip archive of the HAR dataset 
 * **[codebook.md](codebook.md)** - is the code book describing the dataset
+* **[generate_variable_descriptions.R](generate_variable_descriptions.R)** - is the R script that generates the [tidy_summary.txt](tidy_summary.txt) variable descriptions from the variable names
+* **[Human Activity Recognition Using Smartphones Data Set.Rproj](Human Activity Recognition Using Smartphones Data Set.Rproj)** - is the RStudio project file
 * **[readme.md](readme.md)** - well you know what that is .....
-* **[run_analysis.R](run_analysis.R)** - is the R script that downloads, shapes, tidies, and summarizes the Har dataset
+* **[run_analysis.R](run_analysis.R)** - is the R script that downloads, shapes, tidies, and summarizes the HAR dataset
+* **[tidy_summary.txt](tidy_summary.txt)** - is the output of the tidy dataset from the [run_analysis.R](run_analysis.R) script
+* **[variable_descriptions.txt](variable_descriptions.txt)** - is the output of the [generate_variable_descriptions.R](generate_variable_descriptions.R) script which generates the variable descriptions of [tidy_summary.txt](tidy_summary.txt) dataset from the variable names
 
 ## Process of tidying and summarizing the HAR dataset
 The [run_analysis.R](run_analysis.R) script downloads the HAR dataset, tidies it, performs various required data manipulations, and summaries it. The script flow is described in the [Code Book](codebook.md)
 
 ## Code Book
 The [Code Book](codebook.md) describes the parts of the HAR dataset that are manipulated and summarized.
+

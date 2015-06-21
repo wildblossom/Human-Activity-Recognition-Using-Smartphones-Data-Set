@@ -17,7 +17,7 @@ The following UCI HAR data files were used in fulfilling the requirements of the
 * train/X_train.txt - Which contains the training dataset.
 * train/y_train.txt - Which contains the training dataset labels, used to identify the activity performed for each window sample. Labels are linked to data in activity_labels.txt.
 
-## Data processing, tidying, and sumarising
+## Data processing, tidying, and summarizing
 The [run_analysis.R](run_analysis.R) script downloads the HAR dataset, tidies it, performs various required data manipulations, and summaries it. The script flow is as follows:
 
 1. Load required libraries (i.e. dplyr)
@@ -122,7 +122,3 @@ The descriptions of the variables in the [tidy_summary.txt](tidy_summary.txt) fi
 * **Time.Gravity.Acc.Std.X** - The standard deviation of the X acceleration from an accelerometer signal related gravity
 * **Time.Gravity.Acc.Std.Y** - The standard deviation of the Y acceleration from an accelerometer signal related gravity
 * **Time.Gravity.Acc.Std.Z** - The standard deviation of the Z acceleration from an accelerometer signal related gravity
-
-
-
-

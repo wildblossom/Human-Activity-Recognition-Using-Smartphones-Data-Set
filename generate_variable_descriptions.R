@@ -85,7 +85,7 @@ descriptions <- data.frame(
 # 3. Rename the descriptions column to Description
 colnames(descriptions)[1] <- "Description"
 
-# 4. Add the rownames of the descriptions as the variable name
+# 4. Add the row names of the descriptions as the variable name
 descriptions <- cbind(Variable = rownames(descriptions), descriptions)
 
 # 5. Output the variable names and descriptions to file
