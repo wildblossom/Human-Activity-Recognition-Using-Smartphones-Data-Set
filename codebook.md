@@ -3,22 +3,24 @@
 * Based on UCI **Machine Learning Repository** **<a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones" target="_blank">Human Activity Recognition Using Smartphones Data Set (HRA)</a>**
 
 ## Human Activity Recognition Using Smartphones Dataset description
-See **Data/UCI HAR Dataset/README.txt** for a description of the UCI HAR dataset.
+The UCI HAR dataset can be found in [Data/UCI HAR Dataset](Data/UCI HAR Dataset). See **[UCI HAR Dataset/README.txt](Data/UCI HAR Dataset/README.txt)** for a description of the UCI HAR dataset.
 
 ## Data files used
 The following UCI HAR data files were used in fulfilling the requirements of the course project:
 
-* activity_labels.txt - Which links the class labels with their activity name.
-* features.txt - Which lists all features, and is used to identify the dataset data columns.
-* test/subject_test.txt - Which identifies the subject that performed the test activity for each window sample.
-* test/X_test.txt - Which contains the test dataset.
-* test/y_test.txt - Which contains the test dataset labels, used to identify the activity performed for each window sample. Labels are linked to data in activity_labels.txt.
-* train/subject_train.txt - Which identifies the subject that performed the training activity for each window sample.
-* train/X_train.txt - Which contains the training dataset.
-* train/y_train.txt - Which contains the training dataset labels, used to identify the activity performed for each window sample. Labels are linked to data in activity_labels.txt.
+* **[activity_labels.txt](Data/UCI HAR Dataset/activity_labels.txt)** - Which links the class labels with their activity name.
+* **[features.txt](Data/UCI HAR Dataset/features.txt)** - Which lists all features, and is used to identify the dataset data columns.
+* **[test/subject_test.txt](Data/UCI HAR Dataset/test/subject_test.txt)** - Which identifies the subject that performed the test activity for each window sample.
+* **[test/X_test.txt](Data/UCI HAR Dataset/test/X_test.txt)** - Which contains the test dataset.
+* **[test/y_test.txt](Data/UCI HAR Dataset/test/y_test.txt)** - Which contains the test dataset labels, used to identify the activity performed for each window sample. Labels are linked to data in activity_labels.txt.
+* **[train/subject_train.txt](Data/UCI HAR Dataset/train/subject_train.txt)** - Which identifies the subject that performed the training activity for each window sample.
+* **[train/X_train.txt](Data/UCI HAR Dataset/train/X_train.txt)** - Which contains the training dataset.
+* **[train/y_train.txt](Data/UCI HAR Dataset/train/y_train.txt)** - Which contains the training dataset labels, used to identify the activity performed for each window sample. Labels are linked to data in [activity_labels.txt](Data/UCI HAR Dataset/activity_labels.txt).
 
 ## Data processing, tidying, and summarizing
-The [run_analysis.R](run_analysis.R) script downloads the HAR dataset, tidies it, performs various required data manipulations, and summaries it. The script flow is as follows:
+The [run_analysis.R](run_analysis.R) script downloads the HAR dataset, tidies it, performs various required data manipulations, and summaries it.
+
+The script flow is as follows:
 
 1. Load required libraries (i.e. dplyr)
 2. Create the project data directory
